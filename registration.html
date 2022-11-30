@@ -1,0 +1,146 @@
+<html>
+<head>
+  <title>Register</title>
+  <!-- Favicons -->
+  <link href="assets\img\favicon.png" rel="icon">
+  <!--CSS-->
+  <link rel="stylesheet" href="assets\css\style.css">
+  <!--Font Awesom CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body{
+      margin-top: 60px;
+    }
+    .book .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .book .row .image {
+      flex: 1 1 40rem;
+    }
+    .book .row .image img {
+      width: 100%;
+    }
+    .book .row form {
+      flex: 1 1 40rem;
+      padding: 2rem;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+    }
+    .book .row form .inputBox {
+      padding: 0.5rem 0;
+    }
+    .book .row form .inputBox input {
+      width: 100%;
+      padding: 1rem;
+      border: 0.1rem solid rgba(0, 0, 0, 0.1);
+      font-size: 1.7rem;
+      color: #333;
+      text-transform: none;
+    }
+    .book .row form .inputBox h3 {
+      font-size: 2rem;
+      padding: 1rem 0;
+      color: #666;
+    }
+    a, p{
+      font-size: 15px;
+    }
+    .btn{
+      border-radius: 5px;
+    } 
+  </style>
+</head>
+<body>
+<!-- header section starts  -->
+
+<header>
+  <div>
+      <!-- <img src="D:\travel\images\Safar_Logo.png" height="50px" width= "80px"> -->
+      <a href="index.html" class="logo"><span>S</span>afar</a>
+  </div>
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="index.html#services">services</a>
+      <a href="index.html#review">review</a>
+      <a href="booking.html">book</a>
+      <a href="about.html">about us</a>
+      <a href="index.html#contact">contact</a>
+      
+  </nav>
+
+  <div class="icons">
+      <i class="fa fa-user" id="login-btn"></i>
+  </div>
+  
+  <!--<form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar" class="fas fa-search"></label>
+  </form>-->
+</header>
+<!-- header section ends -->
+
+
+<!-- Register section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>g</span>
+        <span>i</span>
+        <span>s</span>
+        <span>t</span>
+        <span>e</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+
+        <div class="image">
+            <img src="assets\svg\book-img.svg" alt="">
+        </div>
+
+        <form action="registration.php" method="post">
+            <div class="inputBox">
+                <h3>First Name</h3>
+                <input type="text" name="firstname" required>
+            <div class="inputBox">
+                <h3>Last Name</h3>
+                <input type="text" name="lastname" required>
+            </div>
+            <div class="inputBox">
+                <h3>Email</h3>
+                <input type="text" name="email" required>
+            </div>
+            <div class="inputBox">
+                <h3>Contact Number</h3>
+                <input type="tel" name="contact" required>
+            </div>
+            <div class="inputBox">
+                <h3>Password</h3>
+                <input type="password" name="password" required>
+            </div>
+            <input type="submit" class="btn" value="Register" name="register"></a> 
+            <p>Already have an account? <a href="login.html">Login</a></p>
+
+        </form>
+
+    </div>        
+
+
+</section>
+<!-- Register section ends  -->
+
+<!--JS-->
+<script src="assets\js\script.js"></script>
+</body>
+</html>

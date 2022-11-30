@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Taxi</title>
+    <!-- Favicons -->
+    <link href="assets\img\favicon.png" rel="icon">
+    <!--About US CSS-->
+    <link rel="stylesheet" href="assets\css\taxi.css">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <!--Font Awesom CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+<!-- header section starts  -->
+
+<header>
+  <div>
+      <!-- <img src="D:\travel\images\Safar_Logo.png" height="50px" width= "80px"> -->
+      <a href="index.html" class="logo"><span>S</span>afar</a>
+  </div>
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="index.html#services">services</a>
+      <a href="index.html#review">review</a>
+      <a href="booking.html">book</a>
+      <a href="about.html">about us</a>
+      <a href="index.html#contact">contact</a>
+      
+  </nav>
+
+  <div class="icons">
+      <i class="fa fa-user" id="login-btn"></i>
+  </div>
+  
+  <!--<form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar" class="fas fa-search"></label>
+  </form>-->
+</header>
+<!-- header section ends -->
+  
+  
+<!-- taxi section starts -->
+
+<section class="taxi">
+      <div class="imgBx">
+        <img src="assets\img\Taxi.jpg" style="height: 600px; margin-top: 100px; " />
+      </div>
+      <div class="contentBx">
+        <div class="formBx">
+          <h2><b><strong>BOOK NOW</strong></b></h2>
+          <form action="taxi.php" method="post">
+            <div class="inputBx">
+              <span>From</span>
+              <select name="from" class="options">
+                <option value="selectcity">Select a place</option>
+                <option value="dwarka">Dwarka</option>
+                <option value="cp">Connaught Place</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="noida">Noida</option>
+              </select>
+            </div>
+            <div class="inputBx">
+              <span>To</span>
+              <select name="to" class="options">
+                <option value="selectcity">Select a place</option>
+                <option value="dwarka">Dwarka</option>
+                <option value="cp">Connaught Place</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="noida">Noida</option>
+              </select>
+            </div>
+            <div class="inputBx">
+              <input type="submit" value="Book Now" name="" />
+            </div>
+          </form>
+        </div>
+      </div>
+</section>
+<!-- taxi section ends -->
+
+
+<!-- footer section  -->
+
+<!--<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>
+         "Safar" is a very user friendly website which helps you explore your
+          travelling options widely and effectively. There is no denying that it
+          is pure fun. It helps you to grow as a human and understand yourself.
+          It also allows you to enjoy solitude and teaches one to respect all
+          cultures and societies.
+            </p>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="index.html#services">services</a>
+            <a href="index.html#review">review</a>
+            <a href="booking.html">book</a>
+            <a href="about.html">About us</a>
+            <a href="index.html#contact">contact</a>
+        </div>
+    </div>
+   <h1 class="credit"> Created by <span> Group 29 </span> | all rights reserved! </h1>
+  </section>-->
+  <!-- footer section ends -->
+
+<!--JS-->
+<script src="assets\js\script.js"></script>
+
+</body>
+</html>
